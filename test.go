@@ -102,7 +102,7 @@ func main() {
 	randomize(&pool, secretPasscode)
 	var i int
 	for thresh != length {
-		if i > 10 {break}
+		if i > 4294967296 {break}
 		for thresh = 0; thresh <= length; thresh++ {
 			if pool == [10]StringBreedable{} {
 				randomize(&pool, secretPasscode)
